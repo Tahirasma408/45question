@@ -1,6 +1,3 @@
-//Question 1
-console.log("Hello, World Done");
-// question 2
-var myName = 'Muhammad Tahir';
-var message = 'is a good person';
-console.log(myName + " " + message);
+//Q2: personal message: store a person,s name in variable, and print a message to that person. your message should be simple, such as hello eric would you like to learn some python today
+var personName = "Eric";
+console.log("hello ".concat(personName, " would you like to learn some python today?"));
